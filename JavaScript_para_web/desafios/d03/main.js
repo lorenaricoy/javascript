@@ -7,12 +7,11 @@ for(let contador =0; contador<ListaDeTelefone.length; contador++){
    tecla.onclick = function () {
     inputTel.value = inputTel.value + tecla.value;
   }
+    tecla.onkeydown = function(){
+      tecla.classList.add('ativa');
+    }
 
-  tecla.onkeydown = function(){
-    tecla.classList.add('ativa');
-  }
-
-  tecla.onkeyup = function(){
-    tecla.classList.remove('ativa');
-  }
+    tecla.onkeyup = function(){
+      tecla.classList.remove('ativa');
+    }
 }
