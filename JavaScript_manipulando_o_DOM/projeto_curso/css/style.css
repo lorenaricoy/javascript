@@ -8,6 +8,28 @@
     box-sizing: border-box;
 }
 
+.botoes {
+    position: relative;
+    right: 0%;
+    left: 25%;
+    bottom: 15%;
+    display: flex;
+ }
+
+.botao{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    background-color:  rgba(0,0,0,0.6);
+    margin-left: 5px;
+    
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
 body {
     background: url(../img/fundo.jpg);
     background-position: center center;
@@ -32,7 +54,7 @@ main {
 .robotron {
     background: url(../img/estrutura.png) no-repeat;
     background-position: center center;
-    margin: 0;
+    margin-top:50px;
     flex-basis: 40%;
     position: relative;
 }
@@ -55,7 +77,8 @@ main {
     line-height: 0.8;
     writing-mode: vertical-rl;
     text-orientation: mixed;
-    color: rgba(255, 255, 255, 0.8)
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 50px;
 }
 
 .box {
